@@ -14,7 +14,7 @@ function renderBeers () {
     $('.beers-list').empty();
     beers.sort(function (a, b) {
         return a.rate - b.rate;
-    })
+    });
 
 
     for(let i=0; i<beers.length;i++) {
